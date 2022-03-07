@@ -1,3 +1,11 @@
+/*
+ * @Date: 2022-03-04 14:09:55
+ * @Author: Yao guan shou
+ * @LastEditors: Yao guan shou
+ * @LastEditTime: 2022-03-04 14:43:35
+ * @FilePath: /operational-transformation.github.com/src/App.tsx
+ * @Description: 
+ */
 // @ts-ignore
 import React from "react";
 import { makeVisualization } from "./generic/Visualization";
@@ -9,6 +17,7 @@ import {
   plainTextWithBasicOperationsFunctions,
 } from "./applicationSpecific/plainTextWithBasicOperations";
 
+//创建样式
 const useStyles = createUseStyles({
   wrapper: {
     width: "940px",
